@@ -1,4 +1,4 @@
-name: Recovery Build
+name: Recovery ofrp Build
 
 on:
   workflow_dispatch:
@@ -14,11 +14,11 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/Shekhawat2/twrp_device_xiaomi_peridot'
+        default: 'https://github.com/grass2/twrp_device_xiaomi_peridot'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'fox-12.1'
+        default: 'twrp-12.1'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
